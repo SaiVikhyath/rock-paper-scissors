@@ -5,10 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 <body>
     
+    <div class="header">
+        <h3>Rock Paper Scissors</h3>
+    </div>
+
+    <div class="content">
+
+        <div class="instructions">
+            <p id="main-instruction" class="who-won">Shoot your option wisely</p>
+            <p id="sub-instruction" class="how-won">First to reach 5 points wins</p>
+        </div>
+
+        <div class="users-choice">
+            <button class="rps-button" id="rock-button" type="button">
+                <div class="rps">
+                    🪨
+                </div>
+            </button>
+            <button class="rps-button" id="paper-button" type="button">
+                <div class="rps">
+                    📜
+                </div>
+            </button>
+            <button class="rps-button" id="scissors-button" type="button">
+                <div class="rps">
+                    ✂️
+                </div>
+            </button>
+        </div>
+
+        <div class="battle-ground">
+            <div class="selection">
+                <div class="scoreboard player-scoreboard">
+                    Last Round
+                </div>
+                <p id="player-score">Player: 0</p>
+            </div>
+            <div class="versus">
+                v/s
+            </div>
+            <div class="selection">
+                <div class="scoreboard computer-scoreboard">
+                    Last Round
+                </div>
+                <p id="computer-score">Computer: 0</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Copyright ©️ 2024 reserved by Vikhy
+        </div>
+
+    </div>
+
 </body>
 </html>

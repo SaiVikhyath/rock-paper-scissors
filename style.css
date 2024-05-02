@@ -1,0 +1,113 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #023047;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.header h3 {
+    padding: 10px 30px 10px 30px;
+    color: #fb8500;
+    font-style: serif;
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.content {
+    background-color: #d9d9d9;
+    height: auto;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 20px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#main-instruction {
+    font-size: 42px;
+}
+
+.instructions p {
+    padding: 10px 10px 20px 10px;
+    color: #3a6ea5;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.battle-ground {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.battle-ground > * {
+    padding: 40px 50px 20px 50px;
+}
+
+.selection > p {
+    padding: 20px;
+    color: #22223b;
+    font-size: 24px;
+}
+
+.scoreboard {
+    width: 60px;
+    height: 40px;
+    background-color: #58a4b0;
+    padding: 35px 50px 65px 50px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #22223b;
+    text-align: center;
+}
+
+.versus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #22223b;
+}
+
+.users-choice {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.rps-button {
+    width: 150px;
+    background-color: #ffa69e;
+    border-radius: 10px;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 48px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
