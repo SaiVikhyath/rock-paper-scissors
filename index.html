@@ -18,22 +18,22 @@
     <div class="content">
 
         <div class="instructions">
-            <p id="main-instruction">Shoot your option wisely</p>
-            <p>First to reach 5 points wins</p>
+            <p id="main-instruction" class="who-won">Shoot your option wisely</p>
+            <p id="sub-instruction" class="how-won">First to reach 5 points wins</p>
         </div>
 
         <div class="users-choice">
-            <button class="rps-button" id="rock-button">
+            <button class="rps-button" id="rock-button" type="button">
                 <div class="rps">
                     🪨
                 </div>
             </button>
-            <button class="rps-button" id="paper-button">
+            <button class="rps-button" id="paper-button" type="button">
                 <div class="rps">
                     📜
                 </div>
             </button>
-            <button class="rps-button" id="scissors-button">
+            <button class="rps-button" id="scissors-button" type="button">
                 <div class="rps">
                     ✂️
                 </div>
@@ -42,19 +42,19 @@
 
         <div class="battle-ground">
             <div class="selection">
-                <div class="scoreboard">
+                <div class="scoreboard player-scoreboard">
                     Last Round
                 </div>
-                <p>Player: 0</p>
+                <p id="player-score">Player: 0</p>
             </div>
             <div class="versus">
                 v/s
             </div>
             <div class="selection">
-                <div class="scoreboard">
+                <div class="scoreboard computer-scoreboard">
                     Last Round
                 </div>
-                <p>Computer: 0</p>
+                <p id="computer-score">Computer: 0</p>
             </div>
         </div>
 
